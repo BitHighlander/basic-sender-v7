@@ -13,9 +13,6 @@ import {
 } from '@coinmasters/pioneer-lib';
 import { usePioneer } from "@coinmasters/pioneer-react";
 import { useEffect, useState } from 'react';
-import { FaBriefcase, FaCoins } from 'react-icons/fa';
-import { LP_GRID_ITEMS } from "lp-items";
-import Header from "../components/Header";
 import { useOnStartApp } from "../utils/onStart";
 
 export default function App() {
