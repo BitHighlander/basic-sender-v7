@@ -40,6 +40,7 @@ export default function App() {
 
   return (
       <>
+        <Pioneer usePioneer={usePioneer}></Pioneer>
         <Classic usePioneer={usePioneer}></Classic>
       </>
   );
