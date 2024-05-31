@@ -1039,42 +1039,42 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.2.0.tgz#9b0ecef8f01263ab808ba3bda7b36a0d91b4d5c1"
   integrity sha512-KmKDg01SrQ7VbTD3+cPWf/UfpF5MSwm3v7MWi0n5t8HnnadT13MF0MJCDSXbBWnzLv1ZKJ6zlyAOeARWX+DpjQ==
 
-"@coinmasters/api@3.7.24":
-  version "3.7.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/api/-/api-3.7.24.tgz#57853e5dacb99b2e8a3e1621a77892fd03d6c564"
-  integrity sha512-fV8ZP3RlglQiEhCyR/pfPf2GCFQ16EC8zSxee8utYudiAf3v7lwLsIeUhCH9pmVGQh1R/jb4cTc+/cvsxw49Lw==
+"@coinmasters/api@3.7.25":
+  version "3.7.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/api/-/api-3.7.25.tgz#0bd34c4767149b61c52df4d49ac42e94cb30a675"
+  integrity sha512-sSq665So/hubC5PIxnHm3H4mAyVT+WQGGL3uiDRDFUkoIkrYyBEm0uAGu+Kjz1HlaQy64QJ7KgfZF/qERn+j3Q==
   dependencies:
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/types" "4.7.25"
     ky "1.1.3"
 
-"@coinmasters/core@11.0.24":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/core/-/core-11.0.24.tgz#e09f097ca4192a30af2989430ec289973fcc2445"
-  integrity sha512-t2B7g7PX8gNFSOg3ZR8gfWHBWLilO5oU2RNvGVsm8ziBc48+vNBssK/94LYIhBMIZ7kMMpkepsv+rp0Psi5wsQ==
+"@coinmasters/core@11.0.25":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/core/-/core-11.0.25.tgz#f5ca9eddd6f90e282f95ca8b5bea2c88142c86ea"
+  integrity sha512-d65L1so0jTJ5dtIvMhSOYXoKs+/skrfy0q9J2CctGAHAQV1WDcACrEWrcpW8J6KqxTGDPaebjAKBnmv90GIoYg==
   dependencies:
-    "@coinmasters/helpers" "11.0.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/helpers" "11.0.25"
+    "@coinmasters/types" "4.7.25"
     "@pioneer-platform/loggerdog" "^8.1.31"
     "@pioneer-platform/pioneer-caip" "^9.2.23"
 
-"@coinmasters/helpers@11.0.24", "@coinmasters/helpers@^11.0.10":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/helpers/-/helpers-11.0.24.tgz#7360f60cc46abe46f53bac1c965549c257b3035f"
-  integrity sha512-HX7z/nEVIJlzMdatbr32zB9JuGzF9tx8Tf8to/m9jXTJP7Rt54i5HwFspiTPX9AzGFozx/PmeXsWyHrUH4Uy7A==
+"@coinmasters/helpers@11.0.25", "@coinmasters/helpers@^11.0.10":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/helpers/-/helpers-11.0.25.tgz#5861e646a3fc8c50d0d9efe8619e7dcc793c2908"
+  integrity sha512-fg4BeMtbyq20YYh2eGUPW32KTfWXrTBryU2d0/yj0p0mafKs5C0yJI5UNzx3OA8Y4nVAaaynzgbmHLmbmJ1eyA==
   dependencies:
     ky "1.1.3"
 
-"@coinmasters/pioneer-db@4.7.23":
-  version "4.7.23"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-db/-/pioneer-db-4.7.23.tgz#07acf6450927028405b84c48b9557ac2aa7e1617"
-  integrity sha512-GA6M2gbhO/xA+6Da/f85i10SiGPVT+h0ttjPMW3liOZagwelpJ6SmIsUz6xdZw74X1x0o9TszTOL6bi9N0UwmQ==
+"@coinmasters/pioneer-db@4.7.24":
+  version "4.7.24"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-db/-/pioneer-db-4.7.24.tgz#fb96d3ee9b782721843eee9c3a9a9bfc43301728"
+  integrity sha512-klPElxHmgYGJiHd/31eswUS1+GpQjZdhlqaQqOhmHdYQAqMpio59jC7y0dgzQ7ZcqIBMsuToFlx9epnb5MvkjQ==
   dependencies:
     idb "^8.0.0"
 
-"@coinmasters/pioneer-lib@latest":
-  version "0.1.32"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.32.tgz#13f48adb17c2197cca0ddcfa0837bdb7595c38e3"
-  integrity sha512-fL2vN6IEGQFIVEHTJioU8UfzL6VSZbk5gGJEnYQwySg18I6LEDbqcGTi/BAn+fqaL5fpjA5N0NfDIXHMee4udw==
+"@coinmasters/pioneer-lib@^0.1.33":
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.34.tgz#0420255f31f6eff059d189daeaa9f9c6ed5929b4"
+  integrity sha512-4j/dCEg4znD1rE63eTgyfgB+KAg8GiZqOJWjdZDY2cgJwFRB4kxOlGtV5baIjrFvrXKgzfuT43IRu8EKpem/ug==
   dependencies:
     "@chakra-ui/icons" "^2.1.1"
     "@chakra-ui/next-js" "^2.2.0"
@@ -1098,14 +1098,14 @@
     react-spinners "^0.13.8"
     uuid "^9.0.1"
 
-"@coinmasters/pioneer-react@latest":
-  version "0.7.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-react/-/pioneer-react-0.7.24.tgz#e3312af76aa296262ed55893389f2fe556fa3031"
-  integrity sha512-oBTSjflgZ2Z1Ou3kjtZQn1jIaX8YmxYzl9fZY4lVgj43EBwuTDw9+CepuLYkGrtorYdR520wtuuE8937r7MnWw==
+"@coinmasters/pioneer-react@^0.7.25":
+  version "0.7.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-react/-/pioneer-react-0.7.25.tgz#087cc3969f533d9e2e44cc860bf252ec67015c59"
+  integrity sha512-If/xk4BdcgYxK6T5pAnyccBg3W5a4x6409AS8VlCw1n/fQsDS+23ew6zHL4Pk1fOT5sDUsrO0NwVatPVFrqtEw==
   dependencies:
-    "@coinmasters/pioneer-db" "4.7.23"
-    "@coinmasters/pioneer-sdk" "4.7.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/pioneer-db" "4.7.24"
+    "@coinmasters/pioneer-sdk" "4.7.25"
+    "@coinmasters/types" "4.7.25"
     "@pioneer-platform/pioneer-caip" latest
     "@pioneer-platform/pioneer-coins" latest
     "@types/node" "18.15.13"
@@ -1118,38 +1118,38 @@
     vite "4.5.0"
     vitest "0.34.6"
 
-"@coinmasters/pioneer-sdk@4.7.24":
-  version "4.7.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-sdk/-/pioneer-sdk-4.7.24.tgz#a6aaea9b40f0a75f69f1dacbfdeda38193f1947d"
-  integrity sha512-6jl/W7FFSrlIt64eKTv9vXyI+EJ2JUh8ZzUEKQfY4QKh6sSAVESVMdTRS6/lHXZICl2e6zbl7IlJHlUTkRd0bQ==
+"@coinmasters/pioneer-sdk@4.7.25":
+  version "4.7.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-sdk/-/pioneer-sdk-4.7.25.tgz#aa4c0ea3e613d324950e15e026fa0b3aceecbf5e"
+  integrity sha512-b/Ou4gujWuoAIUGVN7mloVlfRiPTruM8AsLJE9laXIUXRZST3go6feYTDDrKGmHs6g12uGDhYWSXdY+soRpAfg==
   dependencies:
-    "@coinmasters/api" "3.7.24"
-    "@coinmasters/core" "11.0.24"
-    "@coinmasters/helpers" "11.0.24"
-    "@coinmasters/tokens" "3.7.24"
-    "@coinmasters/toolbox-cosmos" "11.0.24"
-    "@coinmasters/toolbox-evm" "11.0.24"
-    "@coinmasters/toolbox-ripple" "11.0.24"
-    "@coinmasters/toolbox-utxo" "11.0.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/api" "3.7.25"
+    "@coinmasters/core" "11.0.25"
+    "@coinmasters/helpers" "11.0.25"
+    "@coinmasters/tokens" "3.7.25"
+    "@coinmasters/toolbox-cosmos" "11.0.25"
+    "@coinmasters/toolbox-evm" "11.0.25"
+    "@coinmasters/toolbox-ripple" "11.0.25"
+    "@coinmasters/toolbox-utxo" "11.0.25"
+    "@coinmasters/types" "4.7.25"
     "@pioneer-platform/loggerdog" "^8.3.1"
     "@pioneer-platform/pioneer-caip" latest
     "@pioneer-platform/pioneer-client" "^9.2.5"
     "@pioneer-platform/pioneer-coins" "^9.2.21"
     "@pioneer-platform/pioneer-discovery" "^0.0.7"
 
-"@coinmasters/tokens@3.7.24":
-  version "3.7.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/tokens/-/tokens-3.7.24.tgz#65cf4afbe2a604f95bb87a45ee5405e0493733f3"
-  integrity sha512-KHvLZ8ew2LhfILmstu12BQ1Iny0g32RPJN0s3KpsTZ97H31VKWnuRBQOcsLTfeDBBZ3VcFzJdFtz5OMkAY8/4w==
+"@coinmasters/tokens@3.7.25":
+  version "3.7.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/tokens/-/tokens-3.7.25.tgz#d0e4cd229b98563bd0be65a49b3a87a713ed5bc3"
+  integrity sha512-ehrlWf9oLNJ+8zMgLB0KbWvmqHDG+kohk2OMMXJlV1bSJhhUfn8FMZO6JEpFHdkftHk4mt9tu+Y5I/O8KD+FqA==
 
-"@coinmasters/toolbox-cosmos@11.0.24":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-cosmos/-/toolbox-cosmos-11.0.24.tgz#9f86f113ff833efd73ac9bbb541d7e2e5a13a66f"
-  integrity sha512-tTSN97yKWofRFzRXUH5OXxJXWBLZVVM2LAJPIDVAVTIJPBInpN1f3Z21f8a5GKpERk/Su+aXIHAsN+2SDOEDzA==
+"@coinmasters/toolbox-cosmos@11.0.25":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-cosmos/-/toolbox-cosmos-11.0.25.tgz#89e7a1ef98dab3e4ea93fab1a48aed5bf9fbf13f"
+  integrity sha512-Vhsh4KHFcHJYV/pqBZGEVZWj1YJU7HYXD3uFop5tNqfKvwdCJSJAGqQW7d7E5qj1EMdWVJ8xUawCeUnRtDHTZg==
   dependencies:
-    "@coinmasters/api" "3.7.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/api" "3.7.25"
+    "@coinmasters/types" "4.7.25"
     "@cosmjs/amino" "0.32.0"
     "@cosmjs/crypto" "0.32.0"
     "@cosmjs/encoding" "0.32.0"
@@ -1166,21 +1166,21 @@
     protocol-buffers-encodings "1.2.0"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/toolbox-evm@11.0.24":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-evm/-/toolbox-evm-11.0.24.tgz#1d1cea527cd729820e98286ca81717b9c06164da"
-  integrity sha512-NiK7cOXaoNHqCRyDaAalROYyfJH7eNjMrJ4DqvUkf/OGYzKbZmuLHibCJkRY8Z/51qcV8FyBnBOitzxjVb/naw==
+"@coinmasters/toolbox-evm@11.0.25":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-evm/-/toolbox-evm-11.0.25.tgz#995cbc9975c6a155572cda84ec86583fee3e4f91"
+  integrity sha512-IDQGcYubHMJ6UiqPpKDs/en/F2wZG53Uv5I++VtjzvqqhbKvQZw84K73Oy9WRqtCxLUWgKu/+o9vSxP9Tun3DA==
   dependencies:
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/types" "4.7.25"
     ethers "6.9.0"
 
-"@coinmasters/toolbox-ripple@11.0.24":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-ripple/-/toolbox-ripple-11.0.24.tgz#a1771dadf29809ba2f55d3bc4f8c6a643c3a417b"
-  integrity sha512-2MhJfhPnJYfalFV3ExUWugoK6ciFJowgUftZkr+s6KJYpMUS6cYCylOwxllRE9/CfkxHdPgn7qqzbUrlM3HD/Q==
+"@coinmasters/toolbox-ripple@11.0.25":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-ripple/-/toolbox-ripple-11.0.25.tgz#eb38ae79fab2d3c85209a5b2355a38e91e3a17d3"
+  integrity sha512-499Iy3gZSI24Rw8HQt0shlLsqmFez3D1dEQUHz+fEhtENDgRpWlcqt+68z4PQF7hQ6LS5FF+JRsM1Y1c/je42A==
   dependencies:
-    "@coinmasters/api" "3.7.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/api" "3.7.25"
+    "@coinmasters/types" "4.7.25"
     "@cosmjs/amino" "0.31.1"
     "@cosmjs/crypto" "0.31.1"
     "@cosmjs/encoding" "0.31.1"
@@ -1197,12 +1197,12 @@
     protocol-buffers-encodings "1.2.0"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/toolbox-utxo@11.0.24":
-  version "11.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-utxo/-/toolbox-utxo-11.0.24.tgz#9db5d3b9818e0597f0fe5947e47ff6889a585e7c"
-  integrity sha512-t7giUZi/GfD+ge+FTDYUrYT94gxaDghOzE8ZTfpfHE3oi9RcJEJXa8aJUprqN/swWSQCJYK6k+Z7QCWrsszLfw==
+"@coinmasters/toolbox-utxo@11.0.25":
+  version "11.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-utxo/-/toolbox-utxo-11.0.25.tgz#d0fad60a52920de4827ddf008474a6f23d36774f"
+  integrity sha512-+/rmjBe+Lv3ex0HUBTJphH5EIXkHLBWBXOyn5N3hB3HwElkXAyauiTmej6kLnd0kQ7tCJeGlhLwxm8Np6MMAhg==
   dependencies:
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/types" "4.7.25"
     "@psf/bitcoincashjs-lib" "4.0.3"
     "@scure/bip32" "1.3.2"
     "@scure/bip39" "1.2.1"
@@ -1213,22 +1213,22 @@
     ecpair "2.0.1"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/types@4.7.24", "@coinmasters/types@latest":
-  version "4.7.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/types/-/types-4.7.24.tgz#3f4ef2532167ea1a0ee491b0e8a3c4cd40f21580"
-  integrity sha512-ILDPoVuaYohe/HDkIsh4HJS4RHDzurMlEznL7sQsMJD+jzRaOyYU9I/PGvoRxsL8b1hymweODxzj5ABwjV4/tw==
+"@coinmasters/types@4.7.25", "@coinmasters/types@^4.7.25":
+  version "4.7.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/types/-/types-4.7.25.tgz#c774ad7fefee0519f6ea10d3dfec7682d4155b4c"
+  integrity sha512-22FhNviRU3Gy9fEH7J+BtsMITqp17hkY3GXx2YhvcJGZu0LXaOn+wxNSTOV+IZE14Yey9uRwIdumaf4Ol1sCNg==
 
-"@coinmasters/wallet-keepkey@latest":
-  version "13.0.24"
-  resolved "https://registry.yarnpkg.com/@coinmasters/wallet-keepkey/-/wallet-keepkey-13.0.24.tgz#0cbc724284cc6ea8d85232237f46478fe641963a"
-  integrity sha512-161iy+QobYOdkyCtl8Cd2IINpq5F/2fE63xi7vo8VOYd2E0qkUbS8i7bCvqqRKKA1EBjPssCA3nE6NcXs6O/xQ==
+"@coinmasters/wallet-keepkey@^13.0.25":
+  version "13.0.25"
+  resolved "https://registry.yarnpkg.com/@coinmasters/wallet-keepkey/-/wallet-keepkey-13.0.25.tgz#09091850d6ec612359688b6fb16afc5a1b66761d"
+  integrity sha512-g7vG56wTy+zC2Qh2izIYZyt1Cl6eb3mgGF4wgakOpVm3un8fwYq/jG04Sc4nYBR9hIYR2g6e5AUYQ1u4dS9NDw==
   dependencies:
-    "@coinmasters/tokens" "3.7.24"
-    "@coinmasters/toolbox-cosmos" "11.0.24"
-    "@coinmasters/toolbox-evm" "11.0.24"
-    "@coinmasters/toolbox-ripple" "11.0.24"
-    "@coinmasters/toolbox-utxo" "11.0.24"
-    "@coinmasters/types" "4.7.24"
+    "@coinmasters/tokens" "3.7.25"
+    "@coinmasters/toolbox-cosmos" "11.0.25"
+    "@coinmasters/toolbox-evm" "11.0.25"
+    "@coinmasters/toolbox-ripple" "11.0.25"
+    "@coinmasters/toolbox-utxo" "11.0.25"
+    "@coinmasters/types" "4.7.25"
     "@cosmjs/math" "^0.32.2"
     "@cosmjs/stargate" "0.31.1"
     "@keepkey/keepkey-sdk" "^0.2.55"
