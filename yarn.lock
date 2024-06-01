@@ -1039,43 +1039,35 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.2.0.tgz#9b0ecef8f01263ab808ba3bda7b36a0d91b4d5c1"
   integrity sha512-KmKDg01SrQ7VbTD3+cPWf/UfpF5MSwm3v7MWi0n5t8HnnadT13MF0MJCDSXbBWnzLv1ZKJ6zlyAOeARWX+DpjQ==
 
-"@coinmasters/api@3.7.28":
-  version "3.7.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/api/-/api-3.7.28.tgz#20b3675dc044dd7bffea18b7c9e3e029e4b8080d"
-  integrity sha512-OqKTRbWgIh+awsiqON5rkBAM/p1P/7/2C0yn9vnYeaDFijiSqZr9UeOsp/teVxK05kAr3R5xFZ1XpbAOm+3g1A==
+"@coinmasters/api@3.7.29":
+  version "3.7.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/api/-/api-3.7.29.tgz#f9ab078841d8e90e8892113d3523320de4e45681"
+  integrity sha512-K2P8nG59BhaIsUVud5FU/VGgS6kTAdDB5nUlU7iZnzHeYlaBalAi0feNO2vEJ3bmUOfR9iUJVPqPxQ+0JoLW1A==
   dependencies:
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/types" "4.7.29"
     ky "1.1.3"
 
-"@coinmasters/core@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/core/-/core-11.0.28.tgz#e6e9c9497d08376a7f36a243859b7397a2794049"
-  integrity sha512-9iAtheFuxGlNFXlNIJjzky8ykrR0g4N6yHpP3OP9eL/3rT+1UaBppW4708lYVQEFgi/pYv2Qm2UEl7by32rvwg==
+"@coinmasters/core@11.0.29":
+  version "11.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/core/-/core-11.0.29.tgz#e940130db01b32d2d02892843c2376bcf0b0aa22"
+  integrity sha512-+aat78ymjTbF6zQM63AfqdcET96NbjBwv46ZsxesfXev1phXefq75pnXtW6wKJTpTDib9CItQQlh0AyseaokXQ==
   dependencies:
-    "@coinmasters/helpers" "11.0.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/types" "4.7.29"
+    "@pioneer-platform/helpers" "^4.0.3"
     "@pioneer-platform/loggerdog" "^8.1.31"
     "@pioneer-platform/pioneer-caip" "^9.2.23"
 
-"@coinmasters/helpers@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/helpers/-/helpers-11.0.28.tgz#f0b13a45007a831e9da5293d323c40293a2b7582"
-  integrity sha512-OpvrEw+3+350/Re0DXaDH57gdPYrgKOHcfcdze2q9i1/mn7+yxZzINOiC0MAzJhuJOkPt1vQ//bS4lKnSMBSvA==
-  dependencies:
-    "@pioneer-platform/pioneer-caip" "^9.2.26"
-    ky "1.1.3"
-
-"@coinmasters/pioneer-db@4.7.27":
-  version "4.7.27"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-db/-/pioneer-db-4.7.27.tgz#605c80d0413664c1defe5cfd7d8c3d1f4565b7b5"
-  integrity sha512-r64jRJ9GIPVOpK8zDzRypSY6+gvjfSdglaWsBvzVljuAO89dRWZH4/m7hqGVTYJR2Bu/LQzhNzH5zCUQrbNl5g==
+"@coinmasters/pioneer-db@4.7.28":
+  version "4.7.28"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-db/-/pioneer-db-4.7.28.tgz#650eff60b235c5bae2739536e68953c28baa31d9"
+  integrity sha512-QQQUWEEyYsjLQLgtrEISNN6Md0FHNThP7OfZ0+2DOvWa30UV6LQDtpAVkdhR/aia2zz1Ryr/Eig6JJn+Mp5l6g==
   dependencies:
     idb "^8.0.0"
 
-"@coinmasters/pioneer-lib@^0.1.33":
-  version "0.1.37"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.37.tgz#c2eab5efb508ff30f68a04cc653ea0bf7fcec9dc"
-  integrity sha512-jFOuvb+RZX3MY8sl96vgxEDMruShFfe40iEzKUfxjIm7M7wywRnGQ1kHWKnyiYH5ZKAkgErUZbGDnZ7tMxiSEQ==
+"@coinmasters/pioneer-lib@latest":
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.38.tgz#42f6e856eac4d1e44d7458b01b6b77d393f46d12"
+  integrity sha512-8u1poI+KY4/OULwLZ7tllvsr2FceGXe1HEHd3U4n2pFZ8sYTvGNKyYtKBTmxyS6/oCNbAQf810SLgkhWH5xIlA==
   dependencies:
     "@chakra-ui/icons" "^2.1.1"
     "@chakra-ui/next-js" "^2.2.0"
@@ -1099,14 +1091,14 @@
     react-spinners "^0.13.8"
     uuid "^9.0.1"
 
-"@coinmasters/pioneer-react@^0.7.25":
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-react/-/pioneer-react-0.7.28.tgz#ba7230daba9a8ea0d065935a745102b550306e97"
-  integrity sha512-vQx0uoacpa1oFCC9jHvtZEgvE01hyeFBK/Jq9S52QKpvJyqXIT2qDLN1/La+Fv+mGR5rhgH9LcX/8yUjSlQb2Q==
+"@coinmasters/pioneer-react@latest":
+  version "0.7.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-react/-/pioneer-react-0.7.29.tgz#d08edccf918f35978f38344c752e5961f3f09d30"
+  integrity sha512-bdFP/ftnl53qzymR3q9X3OImsMWPxEgVazggt+gvRAzMWeaBwBN/vcLvt12XJFjupDMEPEs/OjsRm9MB3EW8UA==
   dependencies:
-    "@coinmasters/pioneer-db" "4.7.27"
-    "@coinmasters/pioneer-sdk" "4.7.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/pioneer-db" "4.7.28"
+    "@coinmasters/pioneer-sdk" "4.7.29"
+    "@coinmasters/types" "4.7.29"
     "@pioneer-platform/pioneer-caip" latest
     "@pioneer-platform/pioneer-coins" latest
     "@types/node" "18.15.13"
@@ -1119,38 +1111,37 @@
     vite "4.5.0"
     vitest "0.34.6"
 
-"@coinmasters/pioneer-sdk@4.7.28":
-  version "4.7.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-sdk/-/pioneer-sdk-4.7.28.tgz#9296561c3a7ed72238d720fe98982aabcd4cd27b"
-  integrity sha512-h8YXSeJVruc8bJ0+dIk7grzeNR/oag7UlKTfPSlBB6njNgTZ6joya+W3QWy4tWdnvdN66SJLnCrnhiiRuotHkg==
+"@coinmasters/pioneer-sdk@4.7.29":
+  version "4.7.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-sdk/-/pioneer-sdk-4.7.29.tgz#e34dc3b112355198911e66c41c2f94d1699a3f9b"
+  integrity sha512-rLrKf52awW0V80z9qmyJLV1TUnmXh5UkKOhgpevF3gqzfyMeOSGpFzQq+UwEvF5Hq4god0b7HF9ZW9cPS+IwmA==
   dependencies:
-    "@coinmasters/api" "3.7.28"
-    "@coinmasters/core" "11.0.28"
-    "@coinmasters/helpers" "11.0.28"
-    "@coinmasters/tokens" "3.7.28"
-    "@coinmasters/toolbox-cosmos" "11.0.28"
-    "@coinmasters/toolbox-evm" "11.0.28"
-    "@coinmasters/toolbox-ripple" "11.0.28"
-    "@coinmasters/toolbox-utxo" "11.0.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/api" "3.7.29"
+    "@coinmasters/core" "11.0.29"
+    "@coinmasters/tokens" "3.7.29"
+    "@coinmasters/toolbox-cosmos" "11.0.29"
+    "@coinmasters/toolbox-evm" "11.0.29"
+    "@coinmasters/toolbox-ripple" "11.0.29"
+    "@coinmasters/toolbox-utxo" "11.0.29"
+    "@coinmasters/types" "4.7.29"
     "@pioneer-platform/loggerdog" "^8.3.1"
     "@pioneer-platform/pioneer-caip" latest
     "@pioneer-platform/pioneer-client" "^9.2.5"
     "@pioneer-platform/pioneer-coins" "^9.2.21"
     "@pioneer-platform/pioneer-discovery" "^0.0.7"
 
-"@coinmasters/tokens@3.7.28":
-  version "3.7.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/tokens/-/tokens-3.7.28.tgz#67d3cb414ead93cdd9aabd4988fa9a9400d93dd1"
-  integrity sha512-RStROnSIhKPRU3oz9H8QxmudcrYESW8I15IcHsqYps4SSkrJ6j5mlR7AQqMAtnKILlnUm0MgHHguAzi3eYP8Wg==
+"@coinmasters/tokens@3.7.29", "@coinmasters/tokens@^3.7.28":
+  version "3.7.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/tokens/-/tokens-3.7.29.tgz#5f9a5d868f78c8cb2ea60162d5e21f0a0f64f034"
+  integrity sha512-73S+22Au0/QhS9/ieGTdaqHDM0xmuPFQNGJr8ee1trMzU9dJVhQvgvJsriFOQ1oqqOs+KR3JsEM6oUUR9tzKFg==
 
-"@coinmasters/toolbox-cosmos@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-cosmos/-/toolbox-cosmos-11.0.28.tgz#b2c4c2b5b893666e8dbd383fcf50e93edce9ef82"
-  integrity sha512-YwWlwKznXcDwhwzQd5472DZI4u7Wmd1T4GRswN1fXrD08b4cZDh1k90FO3yP/4EHbU1tgwoi2OZBbceV/C4MYA==
+"@coinmasters/toolbox-cosmos@11.0.29":
+  version "11.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-cosmos/-/toolbox-cosmos-11.0.29.tgz#d6e4eccf58870e82814e0169b74b8c4ada6e3814"
+  integrity sha512-m17bC0cWkuBPBt7VeIwxBQy69Sb91+CjERqwt8n2RYNH5CG006lvBNMTrg8zb6D09jHPfp/znlFzVpZ49LIvuA==
   dependencies:
-    "@coinmasters/api" "3.7.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/api" "3.7.29"
+    "@coinmasters/types" "4.7.29"
     "@cosmjs/amino" "0.32.0"
     "@cosmjs/crypto" "0.32.0"
     "@cosmjs/encoding" "0.32.0"
@@ -1167,22 +1158,22 @@
     protocol-buffers-encodings "1.2.0"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/toolbox-evm@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-evm/-/toolbox-evm-11.0.28.tgz#c060aac56a0ffff5177bc47951bab577eff62d96"
-  integrity sha512-PrS7cdYARnLSH/iivMiYDyjiS7LzbNr2b0z7NIkNm4TStQk8EkalXyaRcg2rxUdugNneFNebsG8zHHxtV0hpFQ==
+"@coinmasters/toolbox-evm@11.0.29":
+  version "11.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-evm/-/toolbox-evm-11.0.29.tgz#a00fe58c2aeb2ff78f01c05768e80b392f315446"
+  integrity sha512-9ZyJQAOfIUO1p8L1yFghuAdrUotIC57+pYcEO4LQchWegMSgNYvUzfgVxrotIwewBuPcnDxBb2mBizv8W5D2XQ==
   dependencies:
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/types" "4.7.29"
     "@pioneer-platform/pioneer-caip" "^9.2.26"
     ethers "6.9.0"
 
-"@coinmasters/toolbox-ripple@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-ripple/-/toolbox-ripple-11.0.28.tgz#44b8f91bb1e86bfabbe331a330f4f7357aafa9da"
-  integrity sha512-5jf2mZuuLElmDPG3jifCTP9DP0QhtAgvw0JFx7awF7i06SPkhYvUTyDNzrOjRpHkrWj9ri5yoIb4sEhHe0RIVw==
+"@coinmasters/toolbox-ripple@11.0.29":
+  version "11.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-ripple/-/toolbox-ripple-11.0.29.tgz#1070676e10c0ad2d666b3bc770c9f8f32e0e6d32"
+  integrity sha512-c3mZ3p7nVDVLFt+lKnZD0rkOe74rbJDkC2BrDXtrJ1+a+G/i0xoloaCZN0NFVcNBPmS9Rnru8EERI8Dsa9f3kA==
   dependencies:
-    "@coinmasters/api" "3.7.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/api" "3.7.29"
+    "@coinmasters/types" "4.7.29"
     "@cosmjs/amino" "0.31.1"
     "@cosmjs/crypto" "0.31.1"
     "@cosmjs/encoding" "0.31.1"
@@ -1199,12 +1190,13 @@
     protocol-buffers-encodings "1.2.0"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/toolbox-utxo@11.0.28":
-  version "11.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-utxo/-/toolbox-utxo-11.0.28.tgz#3bfa8b4472a102964b655b66a400deb1fe85c881"
-  integrity sha512-O+exOEjXXiV3EKcbk0iMfaHyqT2MetbL/QT164xPCnRWZldafWRAbUNSNRaPPysBbRefXSmE1XGu3TjbmT53yw==
+"@coinmasters/toolbox-utxo@11.0.29":
+  version "11.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/toolbox-utxo/-/toolbox-utxo-11.0.29.tgz#7caeb0a2eff18e8759cc2ec819a06a9cc8f40923"
+  integrity sha512-y6uDDq+qg87nMciGq9TJDIwyemaNrwKcMtwxtOfAzfgPALSL+cxmyfmV1M2g/H5fU2hVDSWnIan0gryRRG4yWw==
   dependencies:
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/types" "4.7.29"
+    "@pioneer-platform/helpers" "^4.0.3"
     "@psf/bitcoincashjs-lib" "4.0.3"
     "@scure/bip32" "1.3.2"
     "@scure/bip39" "1.2.1"
@@ -1215,22 +1207,22 @@
     ecpair "2.0.1"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/types@4.7.28", "@coinmasters/types@^4.7.25":
-  version "4.7.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/types/-/types-4.7.28.tgz#2d5dfd2fdf592f03abf3e53769c8e96edd450229"
-  integrity sha512-NxivhCLLt4WvJeg7H2xoII4HKZ0IPDwrZH6T4FuorYIyUpUdZelGC1OioxuLnDtwH5Wav1KLq+BoMFMyavoWRA==
+"@coinmasters/types@4.7.29", "@coinmasters/types@^4.7.28", "@coinmasters/types@latest":
+  version "4.7.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/types/-/types-4.7.29.tgz#38a870a1c3cd23c206152742e0dfa685fc4a7ca7"
+  integrity sha512-iOYXTpG5OY3dzWaCSm0+AsxELRhhp/A/5ifcomhh4pr66FDAx2/Nfn37hGaaM4A9MLuhPuhW+s7DBE6VKdEK5g==
 
-"@coinmasters/wallet-keepkey@^13.0.25":
-  version "13.0.28"
-  resolved "https://registry.yarnpkg.com/@coinmasters/wallet-keepkey/-/wallet-keepkey-13.0.28.tgz#00391ff074ad8946cca490dd8c11d78bce522d44"
-  integrity sha512-udQo73ahSevxcAlKLgxVlOTbfIcPJXpyEcbsFJaddbjHIz5/b3s61Ws6qEYi2PDiTKO9qajI6djz5bjQ7m52dw==
+"@coinmasters/wallet-keepkey@latest":
+  version "13.0.29"
+  resolved "https://registry.yarnpkg.com/@coinmasters/wallet-keepkey/-/wallet-keepkey-13.0.29.tgz#5e8883412196a1124c3323fa49ee52bbf7b1532e"
+  integrity sha512-V0rArCoscq9xfWIuHKQhH16bph/A8fooyD32RGiah+pIicd1aupC0R/k3YDqVTrG+UtYCVYbjtuPzX8kj3sF6g==
   dependencies:
-    "@coinmasters/tokens" "3.7.28"
-    "@coinmasters/toolbox-cosmos" "11.0.28"
-    "@coinmasters/toolbox-evm" "11.0.28"
-    "@coinmasters/toolbox-ripple" "11.0.28"
-    "@coinmasters/toolbox-utxo" "11.0.28"
-    "@coinmasters/types" "4.7.28"
+    "@coinmasters/tokens" "3.7.29"
+    "@coinmasters/toolbox-cosmos" "11.0.29"
+    "@coinmasters/toolbox-evm" "11.0.29"
+    "@coinmasters/toolbox-ripple" "11.0.29"
+    "@coinmasters/toolbox-utxo" "11.0.29"
+    "@coinmasters/types" "4.7.29"
     "@cosmjs/math" "^0.32.2"
     "@cosmjs/stargate" "0.31.1"
     "@keepkey/keepkey-sdk" "^0.2.55"
@@ -2170,7 +2162,7 @@
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.3.2.tgz#6f26dbc8fbc7205873ce3cee2f690eba0d421b39"
   integrity sha512-MVC8EAQp7MvEcm30KWENFjgR+Mkmf+D189XJTkFIlwohU5hcBbn1ZkKq7KVTi2Hme3PMGF390DaL52beVrIihQ==
 
-"@noble/hashes@^1", "@noble/hashes@^1.0.0", "@noble/hashes@^1.2.0":
+"@noble/hashes@^1", "@noble/hashes@^1.0.0", "@noble/hashes@^1.2.0", "@noble/hashes@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.4.0.tgz#45814aa329f30e4fe0ba49426f49dfccdd066426"
   integrity sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==
@@ -2200,6 +2192,19 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@pioneer-platform/helpers@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@pioneer-platform/helpers/-/helpers-4.0.3.tgz#a182e7cff8061f3d3378b6236564c2009dc9680b"
+  integrity sha512-AdqhEMd4yXvWEXM5A6BF+XEapjwb8retJS2vRiPtGoMmvUpoqxrDHExNU9TXvTq7BnbBBvs2DyQjwjgF+ECpng==
+  dependencies:
+    "@coinmasters/tokens" "^3.7.28"
+    "@coinmasters/types" "^4.7.28"
+    "@noble/hashes" "^1.4.0"
+    "@pioneer-platform/loggerdog" "^8.3.1"
+    "@types/node" "^18.15.11"
+    ts-node "^8.10.2"
+    typescript "^5.0.2"
 
 "@pioneer-platform/loggerdog@^8.1.31", "@pioneer-platform/loggerdog@^8.3.1":
   version "8.3.1"
@@ -2915,9 +2920,9 @@
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
 
 "@types/node@*", "@types/node@>=13.7.0", "@types/node@^20.12.11":
-  version "20.12.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.14.tgz#0c5cf7ef26aedfd64b0539bba9380ed1f57dcc77"
-  integrity sha512-scnD59RpYD91xngrQQLGkE+6UrHUPzeKZWhhjBSa3HSkwjbQc38+q3RoIVEwxQGRw3M+j5hpNAM+lgV3cVormg==
+  version "20.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.13.0.tgz#011a76bc1e71ae9a026dddcfd7039084f752c4b6"
+  integrity sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2930,6 +2935,13 @@
   version "18.15.13"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.13.tgz#f64277c341150c979e42b00e4ac289290c9df469"
   integrity sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==
+
+"@types/node@^18.15.11":
+  version "18.19.33"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.33.tgz#98cd286a1b8a5e11aa06623210240bcc28e95c48"
+  integrity sha512-NR9+KrpSajr2qBVp/Yt5TU/rp+b5Mayi3+OlMlcg2cVCfRmcG5PWZ7S4+MG9PZ5gWBoc9Pd0BKSRViuBCRPu0A==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/parse-json@^4.0.0":
   version "4.0.2"
@@ -3596,6 +3608,11 @@ bs58check@^3.0.1:
   dependencies:
     "@noble/hashes" "^1.2.0"
     bs58 "^5.0.0"
+
+buffer-from@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer@^5.5.0:
   version "5.7.1"
@@ -6637,12 +6654,20 @@ source-map-js@^1.0.2, source-map-js@^1.2.0:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
   integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
+source-map-support@^0.5.17:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
 source-map@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==
 
-source-map@^0.6.1:
+source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
@@ -7039,6 +7064,17 @@ ts-node@^10.9.1:
     diff "^4.0.1"
     make-error "^1.1.1"
     v8-compile-cache-lib "^3.0.1"
+    yn "3.1.1"
+
+ts-node@^8.10.2:
+  version "8.10.2"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.10.2.tgz#eee03764633b1234ddd37f8db9ec10b75ec7fb8d"
+  integrity sha512-ISJJGgkIpDdBhWVu3jufsWpK3Rzo7bdiIXJjQc0ynKxVOVcg2oIrf2H2cejminGrptVc6q6/uynAHNCuWGbpVA==
+  dependencies:
+    arg "^4.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    source-map-support "^0.5.17"
     yn "3.1.1"
 
 ts-toolbelt@^9.6.0:
