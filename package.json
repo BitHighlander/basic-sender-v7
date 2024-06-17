@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev-build": "yarn build && yarn start",
-    "update": "yarn upgrade --pattern '!@coinmasters/*'",
+    "update": "yarn && yarn upgrade --pattern '!@coinmasters/*'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
