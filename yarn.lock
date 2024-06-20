@@ -1075,10 +1075,10 @@
   dependencies:
     idb "^8.0.0"
 
-"@coinmasters/pioneer-lib@^0.1.46":
-  version "0.1.49"
-  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.49.tgz#aeabedcbe5ca676ce9791a838bcf451eddfdad87"
-  integrity sha512-r4Y2VCw1oxQO3gQRM6q49CpOCLvEHECg4Dymj9B/9VSavF81zRK+wrFkOHxySlrLn6TkRY18iPzctQFFI61I7A==
+"@coinmasters/pioneer-lib@^0.1.50":
+  version "0.1.50"
+  resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-lib/-/pioneer-lib-0.1.50.tgz#868f972b954696508940856757b65458486bb2b2"
+  integrity sha512-0EyZ0kmfXC6Sc0Baqzu0m9t2yrWDS4+0kM2w0U3y7X5PA78ihccSa0hQJU0y+3So2OU6TlLib+Ni+Z2dh+xCVA==
   dependencies:
     "@chakra-ui/icons" "^2.1.1"
     "@chakra-ui/next-js" "^2.2.0"
@@ -1102,7 +1102,7 @@
     react-spinners "^0.13.8"
     uuid "^9.0.1"
 
-"@coinmasters/pioneer-react@^0.7.35":
+"@coinmasters/pioneer-react@^0.7.39":
   version "0.7.39"
   resolved "https://registry.yarnpkg.com/@coinmasters/pioneer-react/-/pioneer-react-0.7.39.tgz#4aff1c377126aeaa1dd3481b72969611f9aeaf60"
   integrity sha512-Qj5VQZl1AZ1z4tNBAdxMWnFQsdpUw5ypr1fLTEPYkndy/5UGa0eTyuUZaQFYO1nWtus2MXytY2ahmStLb+fEWg==
@@ -1221,12 +1221,12 @@
     ecpair "2.0.1"
     tiny-secp256k1 "1.1.6"
 
-"@coinmasters/types@4.7.39", "@coinmasters/types@^4.7.28", "@coinmasters/types@^4.7.33", "@coinmasters/types@^4.7.35":
+"@coinmasters/types@4.7.39", "@coinmasters/types@^4.7.28", "@coinmasters/types@^4.7.33", "@coinmasters/types@^4.7.39":
   version "4.7.39"
   resolved "https://registry.yarnpkg.com/@coinmasters/types/-/types-4.7.39.tgz#edd0681e0784d92040b8fdeb9fab40f382bfde5b"
   integrity sha512-82MiUMSEI+2ylHp3ECAti48OMLOodl7NhEkoGjf54WnrNe0MMwBbJ90v/l8p0SA1BXAxvxUcuduWwmbQF+99Tw==
 
-"@coinmasters/wallet-keepkey@^13.0.35":
+"@coinmasters/wallet-keepkey@^13.0.39":
   version "13.0.39"
   resolved "https://registry.yarnpkg.com/@coinmasters/wallet-keepkey/-/wallet-keepkey-13.0.39.tgz#d8234a815f4e42409517af213ee2959d3129c39e"
   integrity sha512-PGKdAT+4axZ+AalgtbER00exIi8E1YhMzVns0nGD/Mto20BX56Ei/y3eP7Bcs0i7MA9ZD4llBI9yZFmaHg2JTw==
@@ -6738,16 +6738,7 @@ streamsearch@^1.1.0:
   resolved "https://registry.yarnpkg.com/streamsearch/-/streamsearch-1.1.0.tgz#404dd1e2247ca94af554e841a8ef0eaa238da764"
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
-"string-width-cjs@npm:string-width@^4.2.0":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-string-width@^4.1.0:
+"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -6818,14 +6809,7 @@ string_decoder@^1.1.1:
   dependencies:
     safe-buffer "~5.2.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==

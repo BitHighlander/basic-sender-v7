@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@coinmasters/pioneer-lib": "^0.1.46",
-    "@coinmasters/pioneer-react": "^0.7.35",
-    "@coinmasters/types": "^4.7.35",
-    "@coinmasters/wallet-keepkey": "^13.0.35",
+    "@coinmasters/pioneer-lib": "^0.1.50",
+    "@coinmasters/pioneer-react": "^0.7.39",
+    "@coinmasters/types": "^4.7.39",
+    "@coinmasters/wallet-keepkey": "^13.0.39",
     "next": "14.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
